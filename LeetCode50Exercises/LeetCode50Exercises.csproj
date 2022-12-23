@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="2.TwoSumArray" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2.TwoSumArray.cs" />
+  </ItemGroup>
 </Project>
