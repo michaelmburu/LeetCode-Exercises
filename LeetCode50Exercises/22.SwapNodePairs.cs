@@ -3,7 +3,10 @@ namespace LeetCode50Exercises
 {
     public class SwapNodePairs
     {
-        public swapPairs(LinkedListNode<int> head)
+        /*
+         * Given a linked list swap, every two adjascent ndes and return its head
+        */
+        public LinkedListNode<int> swapPairs(LinkedListNode<int> head)
         {
             LinkedListNode<int> dummy = new LinkedListNode<int>(0);
 

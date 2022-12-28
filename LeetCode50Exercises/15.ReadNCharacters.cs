@@ -4,7 +4,7 @@ namespace LeetCode50Exercises
     public class ReadNCharacters
     {
         /*
-         * Read 4 characters at a time from a file
+         * Read 4 characters at a time from a file using read4 API
         */
         public int ReadNCharacters(char[] buf, int n)
         {

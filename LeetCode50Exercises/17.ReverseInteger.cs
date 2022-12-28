@@ -13,6 +13,9 @@ namespace LeetCode50Exercises
             {
                 // handle overlflow/underflow
                 if(Math.Abs(ret) > 214748364)
+                {
+                    return 0;
+                }
                 ret = ret * 10 + x % 10;
                 x /= 10;
             }

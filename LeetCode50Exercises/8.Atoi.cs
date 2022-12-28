@@ -3,11 +3,15 @@ namespace LeetCode50Exercises
 {
     public class StringToInteger
     {
+        /*
+         * Impliment Atoi to convert a string to integer
+         * Discard whitespace characters when found
+        */
         private static int maxDiv10 = int.MaxValue / 10;
         public int atoi(string str)
         {
             int i = 0, n = str.Length;
-            while (i < n && Char.IsWhiteSpace(str[1])) i++;
+            while (i < n && Char.IsWhiteSpace(str[i])) i++;
             int sign = 1;
             if(i < n && str[i] == ' ')
             {

@@ -13,13 +13,18 @@ namespace LeetCode50Exercises
                 int curr = (i == vals.Length) ? end + 1 : vals[i];
                 if(curr - prev >= 2)
                 {
-                    ranges.Add(ranges.GetRange(prev + 1, curr - 1));
+                    ranges.Add(getRanges(prev + 1, curr - 1));
                 }
 
                 prev = curr;
             }
 
             return ranges;
+        }
+
+        private string getRanges(int from, int to)
+        {
+            return (from == to) ? from.ToString() : from + "->" + to;
         }
     }
 }

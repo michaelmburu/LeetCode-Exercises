@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LeetCode50Exercises
 {
-    public class IsPalindrome
+    public class Palindrome
     {
         /*
             Given a string determine if it is a palindrome considering alphanumeric characters

@@ -6,6 +6,8 @@ namespace LeetCode50Exercises
         /*
          * Given a number represented as an array of digits, plus one to the 
          * other number
+         * 
+         * Iterate from the least signifact digit and simluate by adding one to it
         */
         public void plusOne(List<int> digits)
         {
@@ -22,6 +24,8 @@ namespace LeetCode50Exercises
                     digits[i] = 0;
                 }
             }
+            digits.Add(0);
+            digits[0] = 1;
         }
     }
 }

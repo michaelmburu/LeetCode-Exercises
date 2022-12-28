@@ -9,6 +9,9 @@ namespace LeetCode50Exercises
              * Return the index of the first occurence of needle in a haystack
              * or -1 if needle is found
              * KMP, Boyer-Moore are more effecient algorithms
+             * 
+             * We scan the needle in the haystack and check if the characters match,
+             * if one of the characters don't match we start again with the next
             */
 
             for(int i = 0; ; i++)

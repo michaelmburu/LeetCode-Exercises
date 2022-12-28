@@ -26,6 +26,8 @@ namespace LeetCode50Exercises
                     end = i + len / 2;
                 }
             }
+
+            return s.Substring(start, end + 1);
         }
 
         private int expandAroundCenter(string s, int left, int right)

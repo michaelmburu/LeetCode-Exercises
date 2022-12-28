@@ -34,7 +34,7 @@ namespace LeetCode50Exercises
             }
 
             while (i < n && char.IsWhiteSpace(s[i])) i++;
-            return isNumeric && i == n;
+            return isNumeric && i == n; 
         }
     }
 }

@@ -7,7 +7,7 @@ namespace LeetCode50Exercises
          * Similar to question 6 but with the following constraints
          * The input string does not contain a leading or trailing spaces
          * 
-         * O(n)
+         * O(n) run time
         */
         public void ReverseWords(char[] s)
         {

@@ -3,6 +3,11 @@ namespace LeetCode50Exercises
 {
     public class CopyRandomListInNode
     {
+        /*
+         * Return a deep copy of the list with pointers
+         * 
+         * Solution clone a linked list 
+        */
         public LinkedListNode<int> _RandomListNode(LinkedListNode<int> head)
         {
             Dictionary<LinkedListNode<int>, LinkedListNode<int>> map = new Dictionary<LinkedListNode<int>, LinkedListNode<int>>();

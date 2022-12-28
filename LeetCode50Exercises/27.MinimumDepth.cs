@@ -4,7 +4,8 @@ namespace LeetCode50Exercises
     public class MinimumDepth
     {
         /*
-         * Given a binary tree  
+         * Given a binary tree find its min depth/length
+         * Min depth is the no of nodes along the shortes
         */
         public int MinDepth(TreeNode root)
         {
